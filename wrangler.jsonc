@@ -5,10 +5,12 @@
   "compatibility_flags": ["nodejs_compat"],
   "main": "@tanstack/react-start/server-entry",
   "observability": {
-  "logs": {
-    "enabled": true,
-    "invocation_logs": true,
-    "persist": true
-  }
-},
+    "logs": {
+      "enabled": true,
+      "invocation_logs": true,
+      "persist": true
+    }
+  },
+  // Required by `wrangler preview`, which Workers Builds runs for non-main branches.
+  "previews": {}
 }
