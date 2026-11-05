@@ -96,6 +96,6 @@
 		@apply font-sans;
 	}
 	body {
-		@apply m-0 min-h-screen bg-background text-foreground;
+		@apply m-0 min-h-dvh bg-background text-foreground;
 	}
 }
